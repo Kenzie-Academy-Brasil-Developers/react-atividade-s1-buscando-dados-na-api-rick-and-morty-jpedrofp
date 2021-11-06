@@ -1,0 +1,24 @@
+
+
+  h1 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: black;
+    text-shadow: 2px -2px 2px rgb(194, 176, 176), -2px 2px 2px rgb(114, 102, 102);
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  
+    margin: 0px 150px 0px 150px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .container {
+      margin: 0px 0px 0px 0px;
+    }
+  }
+  
